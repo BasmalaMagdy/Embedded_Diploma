@@ -1,0 +1,22 @@
+/*
+ ============================================================================
+ Name        : 1.c
+ Author      : basmala
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+	setvbuf(stdout, NULL, _IONBF, 0);
+	setvbuf(stderr, NULL, _IONBF, 0);
+//	printf("C Programming");
+	int a,b,c;
+	 a=b=c=1;
+	printf("%d",b);
+	return 0;
+}

@@ -1,0 +1,44 @@
+/*
+ ============================================================================
+ Name        : ex8.c
+ Author      : basmala
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+	int a , b ,result = 0;
+	char c;
+	printf("Enter operator + or - or * or /: ");
+	scanf("%c",&c);
+	printf("Enter two operands: ");
+	scanf("%d \n %d",&a , &b);
+
+	if( c == '+')
+	{
+		result = a + b;
+		printf("%d %c %d = %d", a,c ,b,result);
+	}
+	else if( c == '-')
+	{
+		result = a - b;
+		printf("%d %c %d = %d", a ,c,b,result);
+	}
+	else if( c == '*')
+	{
+		result = a * b;
+		printf("%d %c %d = %d", a ,c,b,result);
+	}
+	else if( c == '/')
+	{
+		result = a / b;
+		printf("%d %c %d = %d", a ,c,b,result);
+	}
+
+	return 0;
+}

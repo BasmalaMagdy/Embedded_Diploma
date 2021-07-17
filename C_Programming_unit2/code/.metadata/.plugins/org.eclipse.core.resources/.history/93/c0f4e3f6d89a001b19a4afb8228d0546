@@ -1,0 +1,29 @@
+/*
+ ============================================================================
+ Name        : 6.c
+ Author      : basmala
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+	setvbuf(stdout, NULL, _IONBF, 0);
+	setvbuf(stderr, NULL, _IONBF, 0);
+	float a , b , temp;
+	printf("Enter value of a: \n");
+	scanf("%d",&a);
+	printf("Enter value of b: \n");
+	scanf("%d",&b);
+
+	temp = a;
+	a = b;
+	b = temp;
+	printf("Enter value of a: %d\n" , a);
+	printf("Enter value of a: %d\n" , b);
+	return 0;
+}

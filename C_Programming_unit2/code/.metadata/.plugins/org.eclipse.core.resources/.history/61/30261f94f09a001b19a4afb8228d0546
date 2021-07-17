@@ -1,0 +1,25 @@
+/*
+ ============================================================================
+ Name        : ex8.c
+ Author      : basmala
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+	int a , b ;
+	char c;
+	printf("Enter oberator + or - or * or /: ");
+	scanf("%c",&c);
+	printf("Enter two operands: ");
+	scanf("%d \n %d",&a , &b);
+
+
+
+	return 0;
+}
