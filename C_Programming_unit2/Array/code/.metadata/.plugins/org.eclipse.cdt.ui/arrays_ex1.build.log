@@ -1,0 +1,6 @@
+11:34:35 **** Incremental Build of configuration Debug for project arrays_ex1 ****
+Info: Internal Builder is used for build
+gcc -o arrays_ex1.exe "src\\arrays_ex1.o" 
+
+11:34:35 Build Finished. 0 errors, 0 warnings. (took 302ms)
+
