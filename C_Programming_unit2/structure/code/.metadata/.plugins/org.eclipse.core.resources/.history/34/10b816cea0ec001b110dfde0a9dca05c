@@ -1,0 +1,43 @@
+/*
+ ============================================================================
+ Name        : ex1.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+struct student
+{
+	char name[50];
+	int roll;
+	int mark;
+};
+
+int main(void) {
+
+	setvbuf(stdout, NULL, _IONBF, 0);
+	setvbuf(stderr, NULL, _IONBF, 0);
+
+	struct student o;
+	printf("enter the information of student : \n");
+	printf("enter name : ");
+	scanf("%d",&o.name);
+
+	printf("enter roll : ");
+	scanf("%d",&o.roll);
+
+	printf("enter mark : ");
+	scanf("%d",&o.mark);
+
+	printf("Displaying the information: \n");
+	printf("name : %s \n" , o.name);
+	printf("roll : %s \n", o.roll);
+	printf("mark : %s \n", o.mark);
+
+	return 0;
+}
